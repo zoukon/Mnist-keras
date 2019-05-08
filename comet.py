@@ -90,7 +90,7 @@ def run_model(epochs = 25, batch_size = 128):
     
     
     #model training
-    model_log = model.fit(X_train, y_train, batch_size=batch_size, epochs=epochs,
+    model.fit(X_train, y_train, batch_size=batch_size, epochs=epochs,
               verbose=1, validation_data=(X_test, y_test))
     
     score = model.evaluate(X_test, y_test, verbose=0)

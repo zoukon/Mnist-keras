@@ -1,7 +1,7 @@
 # Mnist-keras
 This repository belongs to my masters project. The purpose is to more easily share my code over the different machine learning platforms I investigate. The main purpose of the project has been to survey different machine learning platforms documentation to determine which platforms we wanted to test. Then choose a handful of those to recreate the same experiment and review the results. After the initial survey, the platforms with the best results were: BEAT-EU, Kaggle Kernels, Codalab, OpenML and CometML. The appropriate experiments can be found here:
 
-## BEAT
+### BEAT
 ### Kaggle
 https://www.kaggle.com/zoukon/keras2-jupyter/edit/run/12698808
 ### Codalab

@@ -14,7 +14,7 @@ experiment = Experiment(api_key="J5JEhhVyr3NLQIFBwBefyqCYU",
                         project_name="Mnist", workspace="zoukon")
 
 # Run your code and go to https://www.comet.ml/
-def run_model(epochs = 25, batch_size = 128):
+def run_model(epochs = 3, batch_size = 128):
  #load mnist dataset
     (X_train, y_train), (X_test, y_test) = mnist.load_data() 
     
@@ -105,7 +105,9 @@ def run_model(epochs = 25, batch_size = 128):
     df = pd.DataFrame(df)
     df.to_csv('results.csv',index = False)
     
-    model.save('my_model.h5')  # creates a HDF5 file 'my_model.h5'
+    model.save('model.h5')  # creates a HDF5 file 'my_model.h5'
+    experiment.log_asset(file_data='results.csv', file_name=None, overwrite=True, file_path=None)
+    experiment.log_asset(file_data='model.h5', file_name=None, overwrite=True, file_path=None)
 
 if __name__ == '__main__':
     if(len(sys.argv) == 3):

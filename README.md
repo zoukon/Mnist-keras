@@ -11,7 +11,8 @@ https://www.openml.org/f/9704
 ### CometML
 https://www.comet.ml/zoukon/mnist
 
-The experiment itself is a simple Convolutional neural network made with Keras, trained and tested on the Mnist dataset. This is still a work in progress. 
+The experiment itself is a simple Convolutional neural network made with Keras, trained and tested on the Mnist dataset. This is still a work in progress. The code varies slightly from system to system. I have the different files I have uploaded here, to make it more clear which alterations had to be made to the original code to make it run on the different platforms. The platforms that use the appropriate files are as follows:
+
 
 ## Overview
 The purpose of this experiment to categorize the MNIST dataset by using a convolutional neural network (CNN). MNIST is a set of 70,000 labeled images 

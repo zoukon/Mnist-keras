@@ -10,7 +10,7 @@ from keras.layers import Dense, Dropout, MaxPooling2D, Conv2D, Flatten
 
 
 # Add the following code anywhere in your machine learning file
-experiment = Experiment(api_key="J5JEhhVyr3NLQIFBwBefyqCYU",
+experiment = Experiment(api_key="<HIDDEN>",
                         project_name="Mnist", workspace="zoukon")
 
 # Run your code and go to https://www.comet.ml/
@@ -109,6 +109,7 @@ def run_model(epochs = 3, batch_size = 128):
     experiment.log_asset(file_data='results.csv', file_name=None, overwrite=True, file_path=None)
     experiment.log_asset(file_data='model.h5', file_name=None, overwrite=True, file_path=None)
 
+#Allows us to run with 1 or 2 arguments. 1st is number of epochs, second is batch size. 
 if __name__ == '__main__':
     if(len(sys.argv) == 3):
         run_model(int(sys.argv[1]), int(sys.argv[2]) )

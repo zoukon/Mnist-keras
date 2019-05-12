@@ -2,8 +2,10 @@
 This repository belongs to my masters project. The purpose is to more easily share my code over the different machine learning platforms I investigate. The main purpose of the project has been to survey different machine learning platforms documentation to determine which platforms we wanted to test. Then choose a handful of those to recreate the same experiment and review the results. After the initial survey, the platforms with the best results were: BEAT-EU, Kaggle Kernels, Codalab, OpenML and CometML. The appropriate experiments can be found here:
 
 ### BEAT
+### Floydhub
+https://www.floydhub.com/zoukon/projects/keras-tensorflow-mnist
 ### Kaggle
-https://www.kaggle.com/zoukon/keras2-jupyter/edit/run/12698808
+https://www.kaggle.com/zoukon/keras-jupyter/edit/run/12698808
 ### Codalab
 https://worksheets.codalab.org/worksheets/0x32ce25fce564404ca002540190e168c9
 ### OpenML

@@ -82,8 +82,10 @@ Save model as HDF5
 ```
 
 # Sources:
+https://keras.io/examples/mnist_cnn/
 https://towardsdatascience.com/a-simple-2d-cnn-for-mnist-digit-recognition-a998dbc1e79a
 https://www.kaggle.com/moghazy/guide-to-cnns-with-data-augmentation-keras
+
 
 ### DOI:
 https://doi.org/10.5281/zenodo.2747335
